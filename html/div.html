@@ -1,0 +1,153 @@
+<!Doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="../css/div.css">
+<title>div page</title>
+</head>
+
+<body>
+<div id="header">
+</div>
+
+<div id="menu">
+</div>
+
+<div id="main">
+  <form action="../test.php">
+    <fieldset>
+    <legend>马拉松报名</legend>
+    <table>
+      <tr>
+        <td>账 　　号</td>
+        <td><input type="text" name="user"></td>
+      </tr>
+
+      <tr>
+        <td>密　　码</td>
+        <td><input type="password" name="passwd1"></td>
+      </tr>
+
+      <tr>
+        <td>密码确认</td>
+        <td><input type="password" name="passwd2"></td>
+      </tr>
+
+      <tr>
+        <td>姓　　名</td>
+        <td><input type="text"  name="name"></td>
+      </tr>
+
+      <tr>
+        <td>性　　别</td> 
+        <td>
+          <input type="radio" name="sex" value="male">male
+          <input type="radio" name="sex" value="female" checked>female
+          <input type="radio" name="sex" value="other">other
+        </td>
+      </tr> <!--checked is default -->
+
+      <tr>
+        <td>年　　龄</td>
+        <td>
+          <select name="age">
+            <option value="child" >6~17</option>
+            <option value="young" selected>18~29</option>  <!--selected is default-->
+            <option value="middle">30~49</option>
+            <option value="old">50~100</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>参加比赛</td>
+        <td>
+          <input type="checkbox" name="mararhon1" value="null" checked>没参加过  <!-- checked is default -->
+          <input type="checkbox" name="marathon2" value="beima">北京马拉松
+          <input type="checkbox" name="marathon3" value="shangma">上海马拉松
+          <input type="checkbox" name="marathon4" value="wuma">武汉马拉松
+          <input type="checkbox" name="marathon5" value="boma">柏林马拉松
+        </td>
+      </tr>
+    </table>
+    </fieldset>
+
+    <fieldset>
+    <legend>工作信息</legend>
+    <table>
+      <tr>
+        <td>行　　业</td>
+        <td>
+          <input type="checkbox" name="type1" value="internet">互联网
+          <input type="checkbox" name="type2" value="edu">教育
+          <input type="checkbox" name="type3" value="edu">体育
+        </td>
+      </tr>
+
+      <tr>
+        <td>职　　位</td>
+        <td><input type="text"  name="job"></td>
+      </tr>
+
+      <tr>
+        <td>出　　生</td>
+        <td><input type="date"  name="birthday"></td>
+      </tr>
+
+      <tr>
+        <td>嗓　　音</td>
+        <td><input type="range"  name="voice" min="0" max=="50"></td>
+      </tr>
+
+      <tr>
+        <td>性格色彩</td>
+        <td><input type="color"  name="mycolor"></td>
+      </tr>
+
+      <tr>
+        <td>个人首页</td>
+        <td><input type="url"  name="mysite"></td>
+      </tr>
+
+      <tr>
+        <td>年　　薪</td>
+        <td>
+          <select name="nianxin">
+            <option value="poor">1w~20w</option>
+            <option value="common">20w~40w</option>
+            <option value="rich">40w~60w</option>
+            <option value="free">60w~100w</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>邮　　箱</td>
+        <td><input type="email"  name="mail"></td>
+      </tr>
+
+      <tr>
+        <td>自我介绍</td>
+        <td>
+          <textarea name="message" rows=6 cols=50>
+我还需要介绍?
+          </textarea>
+        </td>
+      </tr>
+    </table>
+    </fieldset>
+
+    <br>
+    <center><input type="submit" name="提交" id="sub"></center>
+
+  </form>
+
+
+</div>
+<!--<div id="two">local2</div>
+<div id="three">local3</div>-->
+
+</body>
+</html>
+
+

@@ -1,0 +1,48 @@
+div{
+  border:solid 1px;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  bottom: 0px;
+  right: 0px;
+  float: left;
+}
+
+#header{
+  height: 100px;
+}
+
+#menu{
+  width: 160px;
+  float: left;
+}
+
+h1,h2{
+  color: #005a9c;
+  font-size: 25px;
+}
+h3{
+  color: red;
+  font-size: 25px;
+}
+td{
+  text-align: left;
+}
+html,body{
+  margin:0;
+  padding:0;
+}
+
+
+#sub{
+  width:100px;
+  height:40px;
+  border: 2px;
+  background: gray;
+  
+}
