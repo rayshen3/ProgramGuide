@@ -11,7 +11,7 @@ js的对象是动态类型，你可以自由地给一个对象添加或删除属
  */
 var obj = {
     team: 'youmeng+ obj',
-    member_old: ['shenlei','zhangmingxing','wangxiang','lilele','luowenchuan'],
+    member_old: ['sl','zhangsan','lisi','ligang','cc'],
     member_young: ['二炮'],
     title: 'PE',
     avg_age: 110,
